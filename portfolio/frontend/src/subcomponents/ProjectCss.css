@@ -1,0 +1,13 @@
+.proj-img img {
+  width: 30%;
+  height: 30%;
+  border: red 3px solid;
+}
+
+.proj-container {
+  text-align: center;
+}
+
+.ProjectCss {
+  display: inline-block;
+}

@@ -1,0 +1,373 @@
+@import url('<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">, ');
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Passion+One:wght@700&family=Righteous&family=Roboto:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Open+Sans+Condensed:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Yatra+One&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  background: rgb(27, 27, 27);
+  font-weight: 300;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+/* global container */
+#root {
+  width: 95%;
+  margin: auto;
+  overflow: hidden;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+header {
+  color: rgb(173, 174, 175);
+  padding-top: 55px;
+  min-height: 80px;
+}
+header a {
+  text-decoration: none;
+  font-family: "Roboto" sans-serif;
+  font-weight: 200;
+  font-size: 17px;
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  color: rgb(92, 93, 94);
+}
+
+header li {
+  display: inline;
+  padding: 20px 20px 0 20px;
+}
+#branding {
+  float: left;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+#branding h1 a {
+  font-family: cursive;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.subtitle {
+  color: rgb(92, 93, 94);
+  margin-top: -15px;
+}
+.subtitle h3 {
+  font-size: 15px;
+}
+header nav {
+  float: right;
+}
+
+.first-list {
+  float: left;
+  text-align: center;
+  margin-left: 50px;
+  width: 45%;
+}
+.first-list-img {
+  float: right;
+  width: 25%;
+  margin-top: -10px;
+  margin-right: 80px;
+}
+.first-list h1 {
+  font-size: 60px;
+  color: white;
+}
+.first-list h3 {
+  font-size: 40px;
+  color: rgb(92, 93, 94);
+  font-family: "Abel", sans-serif;
+  font-weight: 2px;
+}
+
+.prof-pic {
+  width: 100%;
+  height: auto;
+}
+.prog-logo {
+  border: 3px red solid;
+  margin-top: 20px;
+  height: 300px;
+}
+.prog-logo ul li {
+  display: inline-block;
+  text-align: center;
+  margin-left: 10%;
+  height: 150px;
+  width: 200px;
+  margin-top: 1.5%;
+  border: red 3px solid;
+}
+.prog-logo-list {
+  border: 3px red solid;
+  margin-left: 5%;
+  margin-top: 1%;
+  width: 90%;
+  min-height: 200px;
+}
+.prog-logo-list img {
+  width: 100%;
+  height: 110%;
+}
+.section-one {
+  border: red 3px solid;
+  padding-top: 80px;
+  min-height: 600px;
+}
+/* first link btn */
+.link-button {
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+}
+.first-list-btn {
+  width: 50%;
+  margin-left: 25%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 50px;
+  background-color: rgb(9, 11, 161);
+}
+/*hover effects of first btn*/
+.link-button:hover .link-button:active {
+  font-size: 190%;
+}
+.first-list-btn:hover {
+  background-color: rgb(27, 27, 27);
+  border: rgb(9, 11, 161) 3px solid;
+}
+/* intro container */
+.intro {
+  border: red 3px solid;
+  padding-top: 10px;
+  min-height: 400px;
+}
+.intro-container h4 {
+  text-align: center;
+  width: 90%;
+  margin-left: 43px;
+  font-size: 30px;
+  color: rgb(92, 93, 94);
+}
+.intro-container h3 {
+  text-align: center;
+  width: 90%;
+  font-size: 30px;
+  margin-left: 43px;
+  color: white;
+}
+/* Second Section */
+.section-two {
+  border: red 3px solid;
+  padding-top: 80px;
+  min-height: 400px;
+}
+.quote__txt_one {
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  color: white;
+  font-size: 46px;
+}
+.first-cite {
+  text-align: center;
+  color: white;
+  font-size: 25px;
+}
+.first-cite p {
+  text-align: center;
+}
+/* Section three */
+.section-three {
+  border: red 3px solid;
+  padding-top: 50px;
+  min-height: 800px;
+}
+
+.container-one {
+  float: left;
+  padding-top: 100px;
+  text-align: center;
+  width: 47%;
+  border: red 3px solid;
+  margin-top: 40px;
+}
+.container-two {
+  float: right;
+  padding-top: 100px;
+  text-align: center;
+  margin-top: 40px;
+  width: 47%;
+  border: red 3px solid;
+}
+.container-one h3 {
+  font-size: 25px;
+}
+.container-two h3 {
+  font-size: 25px;
+}
+.container-one p {
+  font-size: 20px;
+}
+.container-two p {
+  font-size: 20px;
+}
+.services-link {
+  padding-top: 48%;
+  text-align: center;
+}
+.services-link a {
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: rgb(9, 11, 161);
+  border-radius: 50px;
+}
+/*hover effects of services-link*/
+
+.services-link a:hover {
+  background-color: rgb(27, 27, 27);
+  border: rgb(9, 11, 161) 3px solid;
+  font-size: 170%;
+}
+/*   */
+.web-development-img {
+  height: 150px;
+  width: 200px;
+  border: red 3px solid;
+}
+.web-design-img {
+  height: 150px;
+  width: 200px;
+  border: 3px solid red;
+}
+.section-three-title {
+  border: red 3px solid;
+  text-align: center;
+  font-size: 27px;
+}
+
+/* Fourth Section */
+.fourth-section {
+  border: red 3px solid;
+  padding-top: 30px;
+  min-height: 400px;
+}
+
+.container-four {
+  float: left;
+  margin-top: 30px;
+  width: 50%;
+  border: red 3px solid;
+  position: relative;
+}
+.container-four h2 {
+  font-size: 50px;
+  padding-left: 30px;
+}
+.container-four p {
+  font-size: 25px;
+  padding-left: 30px;
+  margin-top: -20px;
+  color: rgb(92, 93, 94);
+}
+.container-five {
+  float: right;
+  margin-top: 30px;
+  width: 30%;
+  border: red 3px solid;
+}
+.social-links a {
+  text-decoration: none;
+  color: rgb(92, 93, 94);
+  font-size: 30px;
+  padding-left: 10px;
+}
+/* social-links a hover */
+.social-links a:hover {
+  color: white;
+}
+.social-links ul,
+li {
+  text-decoration: none;
+  padding-bottom: 15px;
+  list-style-type: none;
+}
+.social-links i {
+  padding-bottom: 5px;
+}
+.get-link a {
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+  padding-top: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 15px;
+  border-radius: 50px;
+  background-color: rgb(9, 11, 161);
+}
+.get-link {
+  margin-left: 100px;
+  margin-bottom: 20px;
+  border-radius: 50px;
+}
+/*hover effects of get-link*/
+
+.get-link a:hover {
+  background-color: rgb(27, 27, 27);
+  border: rgb(9, 11, 161) 3px solid;
+  font-size: 200%;
+}
+/* Footer */
+
+.footer-container {
+  text-align: center;
+  min-height: 100px;
+  background-color: rgb(22, 20, 20);
+  border: red 3px solid;
+}
+.footer-container p {
+  color: rgb(92, 93, 94);
+  margin-top: 40px;
+}
+/* Hover Effects */
+.cool-link::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 7px;
+  bottom: 10px;
+  transform: translateX(-50%);
+  background: rgb(29, 6, 129);
+  transition: 0.35s ease;
+}
+.cool-link:hover::after {
+  width: 50%;
+}
+
+.cool-link:hover {
+  color: rgb(253, 253, 253);
+}
+#branding h1 a:hover {
+  color: rgb(253, 253, 253);
+}
+/*social Media Links */
